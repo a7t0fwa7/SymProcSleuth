@@ -1,6 +1,6 @@
 # SymProcSleuth
 
-SymProcSleuth is a C implementation of the `SymProcAddress` function, which is an alternative to the `GetProcAddress` function for retrieving the address of a function within a module. This implementation is based on the original C++ code from the [SymProcAddress repository](https://github.com/MzHmO/SymProcAddress/blob/main/SymProcAddress/main.cpp) by MzHmO.
+SymProcSleuth is a C implementation of the `SymProcAddress` function, which is an alternative to the `GetProcAddress` function for retrieving the address of a function within a module. This implementation is based on the original C++ code from the [SymProcAddress repository](https://github.com/MzHmO/SymProcAddress/blob/main/SymProcAddress/main.cpp) by MzHmO. Special thanks to MzHmO for the original C++ implementation of `SymProcAddress`, which served as the basis for SymProcSleuth.
 
 ## Differences and Enhancements
 
@@ -50,7 +50,6 @@ After successful compilation, you can run the resulting executable (`SymProcSleu
 
 This code is released under the [MIT License](LICENSE).
 
-References:
-[1] https://github.com/MzHmO/SymProcAddress/blob/main/SymProcAddress/main.cpp
+References: 
 
-Special thanks to MzHmO for the original C++ implementation of `SymProcAddress`, which served as the basis for SymProcSleuth.
+https://github.com/MzHmO/SymProcAddress/blob/main/SymProcAddress/main.cpp
