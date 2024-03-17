@@ -133,7 +133,7 @@ int main()
     MessageBoxWFunc MessageBoxWPtr = (MessageBoxWFunc)(SymProcAddress(hModule, "MessageBoxW"));
 
     // Call the found function to display a message box
-    MessageBoxWPtr(NULL, L"Lol who said GetProcAddress() xD", L"Hi from MzHmO", MB_OK);
+    MessageBoxWPtr(NULL, L"Lol who said we needed GetProcAddress() ?? xD", L"Hi from a7t0fwa7", MB_OK);
 
     // Free allocated symbols information
     FreeSymbols();
